@@ -28,7 +28,8 @@ public class Generator {
         System.out.print("Enter your last name: ");
         input = prompt.nextLine();
         char last = input.charAt(0);
-        
+        prompt.close();
+
         ArrayList<String> firstNames = new ArrayList<>();//using 1d arrays to store possible names **improve at some point**
         ArrayList<String> lastNames = new ArrayList<>();
              
